@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCryptApp.Api", "FxCryptApp.Api\FxCryptApp.Api.csproj", "{F8FCD97B-34D1-40EC-9DDF-3C24DA3F90B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCryptApp.Data", "FxCryptApp.Data\FxCryptApp.Data.csproj", "{8404BB91-CA28-4C2C-BB9C-DE658B81F637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F3D1D33-81E4-4729-ABF5-69CFF48BF5E1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8FCD97B-34D1-40EC-9DDF-3C24DA3F90B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FCD97B-34D1-40EC-9DDF-3C24DA3F90B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FCD97B-34D1-40EC-9DDF-3C24DA3F90B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FCD97B-34D1-40EC-9DDF-3C24DA3F90B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8404BB91-CA28-4C2C-BB9C-DE658B81F637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8404BB91-CA28-4C2C-BB9C-DE658B81F637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8404BB91-CA28-4C2C-BB9C-DE658B81F637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8404BB91-CA28-4C2C-BB9C-DE658B81F637}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9A7D841-5E93-454F-BF87-1E9053C86B54}
+	EndGlobalSection
+EndGlobal
