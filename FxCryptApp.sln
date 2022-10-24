@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DBB08099-1624-4C92-84BB-E7D78FF9F306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{11D106D2-2F2B-43F6-87E5-C1980D0C207E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCryptApp.UnitTests", "FxCryptApp.UnitTests\FxCryptApp.UnitTests.csproj", "{0F70A24F-1081-4A76-9380-A7A3C442F67E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +32,18 @@ Global
 		{8404BB91-CA28-4C2C-BB9C-DE658B81F637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8404BB91-CA28-4C2C-BB9C-DE658B81F637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8404BB91-CA28-4C2C-BB9C-DE658B81F637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F70A24F-1081-4A76-9380-A7A3C442F67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F70A24F-1081-4A76-9380-A7A3C442F67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F70A24F-1081-4A76-9380-A7A3C442F67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F70A24F-1081-4A76-9380-A7A3C442F67E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8FCD97B-34D1-40EC-9DDF-3C24DA3F90B4} = {DBB08099-1624-4C92-84BB-E7D78FF9F306}
+		{8404BB91-CA28-4C2C-BB9C-DE658B81F637} = {DBB08099-1624-4C92-84BB-E7D78FF9F306}
+		{0F70A24F-1081-4A76-9380-A7A3C442F67E} = {11D106D2-2F2B-43F6-87E5-C1980D0C207E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9A7D841-5E93-454F-BF87-1E9053C86B54}
