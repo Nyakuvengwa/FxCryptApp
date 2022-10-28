@@ -17,10 +17,12 @@ services:
   # admin tool for postgresql db
   pgadmin:
     container_name: pgadmin_container
-    image: dpage/pgadmin4
+    image: dpage/pgadmin4:latest
     environment:
       - PGADMIN_DEFAULT_EMAIL=fxcryptapp@fxcryptapp.co.za
       - PGADMIN_DEFAULT_PASSWORD=admin
+    depends_on:
+      - postgresql_db
     ports:
       - "5433:80" # map container port 80 to 5433 on host
     volumes:
@@ -29,3 +31,8 @@ services:
 volumes:
   postgres_data:
   pgadmin:
+
+networks:
+  default:
+    # Use a custom driver
+    driver: fxcryptapp_network
