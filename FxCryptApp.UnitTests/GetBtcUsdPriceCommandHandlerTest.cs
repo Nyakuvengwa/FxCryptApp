@@ -18,7 +18,7 @@ public class GetBtcUsdPriceCommandHandlerTest
 		mapperMock.Setup(x => x.Map<GetBtcUsdPriceResponse>(It.IsAny<BtcUsdPrice>())).Returns(new GetBtcUsdPriceResponse()
 		{
 			Id = 1,
-			Price = 20590,
+			Price = 20590.ToString("F2"),
 			SeededDate = DateTimeOffset.UtcNow,
 			TickerSourceId = 1,
 		});
