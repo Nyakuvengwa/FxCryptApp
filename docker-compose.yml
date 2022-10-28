@@ -31,8 +31,3 @@ services:
 volumes:
   postgres_data:
   pgadmin:
-
-networks:
-  default:
-    # Use a custom driver
-    driver: fxcryptapp_network
