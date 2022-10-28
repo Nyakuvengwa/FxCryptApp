@@ -1,5 +1,6 @@
 # FxCryptApp
 This project is a demonstration of to get the Bid Price of BTC/USD from different sources.
+[![.NET](https://github.com/Nyakuvengwa/FxCryptApp/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Nyakuvengwa/FxCryptApp/actions/workflows/dotnet.yml)
 
 ## Running the application.
 Prerequisites:
